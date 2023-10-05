@@ -54,7 +54,7 @@ def pdf_processor(filepath: str) -> bool:
     return True
 
 """
-This example adheres to the zen of python 'composition over inheritance'.
+This example adheres to the principle 'composition over inheritance'.
 Of course, we could just import and refer to the functions we want to use, we don't have
 to make them attributes of the class, but making them attributes of the class
 allows for tests that are simpler and easier to read and reason about tests because we don't have to use
