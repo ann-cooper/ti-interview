@@ -41,11 +41,11 @@ Considerations for building a data pipeline can be broken into two broad areas: 
 
 #### Lifecycle:
 
-- The data lifecylce and data governance are two different concepts that interact at several points: 
-    - Lifecyle stage: Ingest 
+- The data lifecycle and data governance are two different concepts that interact at several points: 
+    - Lifecycle stage: Ingest 
         - What are the data sources?
         - How can we pull data from them?
-    - Lifecyle stage: Transformation
+    - Lifecycle stage: Transformation
         - This includes anything that needs to be done to the raw data in order for it to be usable. That can include cleaning, enriching, etc.
         - Governance actions:
             - Quality: Data quality can include many different measures, but some common ones are completeness, uniqueness, and consistency.
